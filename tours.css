@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    background-color: rgba(142, 189, 228, 0.123);
   }
   .navbar{
       position: fixed;
@@ -42,7 +43,7 @@ body{
       border-bottom:rgb(3, 124, 180) solid 3px;
   }
   .parallax{
-    background-image:  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)),url(https://www.itl.cat/pngfile/big/22-225234_maldives-resorts.jpg);
+    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)),url(https://www.itl.cat/pngfile/big/22-225234_maldives-resorts.jpg);
     height: 480px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -73,7 +74,7 @@ body{
       
   }
   .tour1{
-      margin:10% 5% 30% 5%;
+      margin:10% 5% 25% 5%;
       background-image: url(https://wallpaperaccess.com/full/565447.jpg);
       background-repeat: no-repeat;
       border-radius: 5px;
@@ -141,7 +142,7 @@ body{
 
     .tour2{
        
-        margin:10% 5% 30% 5%;
+        margin:10% 5% 25% 5%;
         background-image: url(https://wallpaperaccess.com/full/436964.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
@@ -156,7 +157,7 @@ body{
      
     .tour3{
        
-        margin:10% 5% 30% 5%;
+        margin:10% 5% 20% 5%;
         background-image: url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
@@ -168,4 +169,140 @@ body{
       .tour3:hover{
           background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
       }
-     
+     .pagination{
+         display: inline-block;
+         text-align: center;
+     }
+     .pagination a{
+        color: rgb(16, 14, 131);
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        background-color: white;
+        border: rgba(16, 14, 131, 0.267) solid .5px;
+
+
+     }
+     .pagination a:hover{
+         background-color: rgb(29, 189, 230);
+     }
+
+     .end{
+          text-align: center;
+          
+     }
+     .pagination a:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      
+      .pagination a:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+     .footer{
+         margin-top: 10%;
+        background-color: rgba(0, 0, 77, 0.965);
+        height: 350px;
+    }
+    .grid-container6{
+        display: grid;
+        grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr ;
+        padding:4% 4% 0 4%;
+        
+    }
+    .row1{
+        width: 100%;
+    }
+    .row2{
+        width: 100%;
+        line-height: 2em;
+        padding-left: 15%;
+       
+    }
+    .row3{
+        width: 100%;
+        line-height: 2.8em;
+       
+        
+    }
+    
+    
+    .row4{
+        width: 100%;
+    }
+    
+    #brand1{
+        margin-left: 32%;
+        text-align: center;
+        font-size: 1.8em;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.76);
+        font-family: 'Lobster', cursive;
+        font-weight: 300;  
+    }
+    #hr1{
+        border: 0;
+         height: 1px;
+         width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
+    }
+    #maska{
+        text-align: center;
+        padding-top: 1%;
+        line-height: 1.4em;
+        font-size: 1em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        color: white;
+    }
+    #navigation{
+        color: rgba(255, 255, 255, 0.808);
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 1.3em;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+    
+    }
+    #navlinks{
+        color: white;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+    li{
+        list-style: none;
+        
+    }
+    #stuff{
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 0 4% ;
+        margin-bottom: 2%;
+        position: relative;
+        top: -13px;
+        text-align: center;
+        
+    }
+    svg{
+        padding: 2%;
+    }
+    #iconcrate{
+        margin:8% 12%;
+    }
+    #arrow{
+        margin-left: 10%;
+    }
+    
+    #top{
+        color: rgba(255, 255, 255, 0.74);
+        font-size: 1.3em;
+        position: relative;
+        left: 23%;
+        top: -14%;
+    
+    }
