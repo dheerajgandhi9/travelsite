@@ -392,7 +392,12 @@ background-color: rgba(0, 0, 0, 0.253);
     margin-bottom: 0;
     height: 400px;
     padding-bottom: 4%;
-    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)),url(https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cmsfeatured/10-most-beautiful-places-in-the-world-1534416117-785X440.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,1)),url(https://www.onemanwolfpack.de/jpg/videos/omwp/389.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 10%;
+    
+
 }
 #endline1{
     padding-top: 8%;
