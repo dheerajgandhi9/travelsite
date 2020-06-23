@@ -96,8 +96,28 @@ body{
         font-size: 5em;
         padding: 2% 0 0 0;
         margin: 0;
+        display: block;
+}
 
+    .buy-now{
+        text-align: center;
+        font-size: 1rem;
+        color:#f4f4f4;
+        margin: 0 45%;
+        padding: 0.5rem 1rem;
+        background: #6767f7;
+        margin-top: 4rem;
+        display: none;
     }
+
+    .tour:hover .placename{
+        display: none;
+    }
+
+    .tour:hover .buy-now{
+        display: block;
+    }
+
     .grid-container1{
         display: grid;
         grid-template-columns: 1fr 1fr;
