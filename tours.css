@@ -75,7 +75,7 @@ body{
   }
   .tour1{
       margin:10% 5% 25% 5%;
-      background-image: url(https://wallpaperaccess.com/full/565447.jpg);
+      background-image: url(./images/img2.jpg);
       background-repeat: no-repeat;
       border-radius: 5px;
       background-position: 50%;
@@ -84,7 +84,7 @@ body{
       transition-duration: 1s;
     }
     .tour1:hover{
-        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/565447.jpg);
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img2.jpg);
         display: block;
     }
    
@@ -143,7 +143,7 @@ body{
     .tour2{
        
         margin:10% 5% 25% 5%;
-        background-image: url(https://wallpaperaccess.com/full/436964.jpg);
+        background-image: url(./images/img3.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
         background-position: 50%;
@@ -152,13 +152,13 @@ body{
         transition-duration: 1s;
       }
       .tour2:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpaperaccess.com/full/436964.jpg);
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img3.jpg);
       }
      
     .tour3{
        
         margin:10% 5% 20% 5%;
-        background-image: url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+        background-image: url(./images/img4.jpg);
         background-repeat: no-repeat;
         border-radius: 5px;
         background-position: 50%;
@@ -167,7 +167,7 @@ body{
         transition-duration: 1s;
       }
       .tour3:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(https://wallpapershome.com/images/wallpapers/goa-3840x2160-5k-4k-wallpaper-india-indian-ocean-palms-boats-travel-6143.jpg);
+          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img4.jpg);
       }
      .pagination{
          display: inline-block;
