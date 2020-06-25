@@ -81,11 +81,13 @@ body{
       background-position: 50%;
       background-size: cover ;
       height: 450px;
-      transition-duration: 1s;
+    
+     
     }
     .tour1:hover{
         background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img2.jpg);
-        display: block;
+        
+        
     }
    
     .placename{
@@ -100,13 +102,15 @@ body{
 }
 
     .buy-now{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 5em;
         text-align: center;
-        font-size: 1rem;
-        color:#f4f4f4;
-        margin: 0 45%;
-        padding: 0.5rem 1rem;
-        background: #6767f7;
-        margin-top: 4rem;
+        color:#ffffff;
+        width: 100%;
+        padding-top: 2%;
+        text-decoration: none;
+       background-color: rgba(0, 0, 0, 0);
         display: none;
     }
 
@@ -169,7 +173,7 @@ body{
         background-position: 50%;
         background-size: cover ;
         height: 450px;
-        transition-duration: 1s;
+       
       }
       .tour2:hover{
           background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img3.jpg);
@@ -184,7 +188,7 @@ body{
         background-position: 50%;
         background-size: cover ;
         height: 450px;
-        transition-duration: 1s;
+       
       }
       .tour3:hover{
           background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img4.jpg);
