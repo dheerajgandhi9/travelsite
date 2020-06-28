@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left:  3%;
+    width: 100%;
+    list-style-type: none ;
+    background-color: rgb(7, 7, 105);
+    z-index: 2;
+    
+}
+.links{
+    float: left;
+    
+}
+
+#brand{
+    display: block;
+    padding:14px 200px 14px 0 ;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+.optn{
+    display: block;
+    padding:14px 35px ;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+ 
+}
+.links :hover{
+    background-color:rgb(12, 12, 78);
+    border-bottom:rgb(3, 124, 180) solid 3px;
+}
+.parallax{
+ 
+    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)),url(./images/img6.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  }
+  #main1{
+      margin-top: 3%;
+      padding: 10% 0 0 0;
+      text-align: center;
+      font-size: 4.5em;
+      color: rgba(255, 255, 255, 0.918);
+      font-family: 'Lato', sans-serif;
+      font-weight: 800;
+  }
+  #sub1{
+      margin-top: 4%;
+      border-top: rgba(255, 255, 255, 0.65) solid 1px;
+      border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
+      color: white;
+      font-size: 1.2em;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      text-align: center;
+      padding: 1% 0 1% 0;
+      width: 40%;
+      margin-left:29% ;
+      
+  }
+
+  .ourstory{
+    text-align: center;
+    margin: 7% 0 7% 0;
+    padding:3% 10% 3% 10%;
+  
+
+
+  }
+  #heading{
+      padding-bottom: 2.5%;
+      color: rgb(7, 7, 105);
+      font-family: 'Libre Baskerville', serif;
+  }
+  #story{
+      color: rgb(0, 0, 0);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      font-size: 1.1em;
+      line-height: 1.3em;
+      
+  }
+  .points{
+      background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.9)),url(./images/img7.jpg);
+      margin-bottom: 10% ;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  .grid1{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-gap: 4em;
+      text-align: center ;
+      padding: 11% 4% 3% 4%;
+  }
+  .item h1{
+      color: rgba(255, 255, 255, 0.842);
+      font-family: 'Berkshire Swash', cursive;
+      font-weight: 600;
+      padding-bottom: 2%;
+      font-size: 2.2em;
+      
+      
+  }
+
+  .item h2{
+      padding-top: 4%;
+      color: rgba(255, 255, 255, 0.918);
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-size: 1.2em;
+
+  }
+  .grid2{
+      display: grid;
+      padding: 3% 3% 3% 6% ;
+      margin: 5%;
+      border-radius: 4px;
+      grid-template-columns: .6fr 2fr;
+      border: rgba(0, 0, 0, 0.301) solid 1px;
+     box-shadow: rgba(0, 0, 0, 0.13) 0 0 15px 1px;
+     background-color: #f4f4f4b4;
+  }
+  #img1{
+    margin-top: 10%;  
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: white solid 2px;
+    box-shadow: rgba(2, 3, 75, 0.404) 0 0 15px 1px;
+
+  }
+  .item1 h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+      color: rgb(12, 12, 78);
+      padding-bottom: 2%;
+      margin-top: 3%;
+      font-size: 1.6em;
+
+  }
+  .item1 h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    padding-right: 8%;
+
+  }
+  #endline{
+      
+      padding-top: 4%;
+      text-align: right;
+      font-family: 'Lato', sans-serif;
+      font-weight: 600;
+      font-size: 1.3em;
+      color: rgb(12, 12, 78);
+  }
+  .grid3{
+      display: grid;
+      text-align: center;
+      grid-template-columns: repeat(4,1fr);
+      grid-gap: 2em;
+      padding: 6% 5% 6% 5%;
+      margin-top: 10%;
+      background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.4)),url(https://wallpaperaccess.com/full/98413.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .item2{
+      border-right:white solid 1px ;
+      
+  }
+  .item2:last-child{
+    border: none
+}
+  .item2 h1{
+      font-size: 6em;
+      color: rgba(255, 255, 255, 0.89);
+
+  }
+  .item2 h2{
+      font-size: 1.3em;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+
+  }
+  .footer{
+    background-color: rgba(0, 0, 77, 0.965);
+    height: 350px;
+}
+.grid-container6{
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr ;
+    padding:4% 4% 0 4%;
+    
+}
+.row1{
+    width: 100%;
+}
+.row2{
+    width: 100%;
+    line-height: 2em;
+    padding-left: 15%;
+   
+}
+.row3{
+    width: 100%;
+    line-height: 2.8em;
+   
+    
+}
+
+
+.row4{
+    width: 100%;
+}
+
+#brand1{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+    font-family: 'Lobster', cursive;
+    font-weight: 300;  
+}
+#hr1{
+    border: 0;
+     height: 1px;
+     width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
+}
+#maska{
+    text-align: center;
+    padding-top: 8%;
+    line-height: 1.4em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+#navigation{
+    color: rgba(255, 255, 255, 0.808);
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+
+}
+#navlinks{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+li{
+    list-style: none;
+    
+}
+#stuff{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0 4% ;
+    margin-bottom: 2%;
+    position: relative;
+    top: -13px;
+    text-align: center;
+    
+}
+svg{
+    padding: 2%;
+}
+#iconcrate{
+    margin:8% 12%;
+}
+#arrow{
+    margin-left: 10%;
+}
+
+#top{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 1.3em;
+    position: relative;
+    left: 23%;
+    top: -14%;
+
+}

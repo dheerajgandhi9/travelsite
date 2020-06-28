@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left:  3%;
+    width: 100%;
+    list-style-type: none ;
+    background-color: rgb(7, 7, 105);
+    z-index: 2;
+    
+}
+.links{
+    float: left;
+    
+}
+
+#brand{
+    display: block;
+    padding:14px 200px 14px 0 ;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+.optn{
+    display: block;
+    padding:14px 35px ;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+ 
+}
+.links :hover{
+    background-color:rgb(12, 12, 78);
+    border-bottom:rgb(3, 124, 180) solid 3px;
+}
