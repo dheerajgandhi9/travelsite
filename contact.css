@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,4 +42,253 @@
 .links :hover{
     background-color:rgb(12, 12, 78);
     border-bottom:rgb(3, 124, 180) solid 3px;
+}
+.parallax{
+ 
+    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.9)),url(./images/img12.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  }
+  #main1{
+      margin-top: 3%;
+      padding: 10% 0 0 0;
+      text-align: center;
+      font-size: 4.5em;
+      color: rgba(255, 255, 255, 0.918);
+      font-family: 'Lato', sans-serif;
+      font-weight: 800;
+  }
+  #sub1{
+      margin-top: 4%;
+      border-top: rgba(255, 255, 255, 0.65) solid 1px;
+      border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
+      color: white;
+      font-size: 1.2em;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      text-align: center;
+      padding: 1% 0 1% 0;
+      width: 40%;
+      margin-left:29% ;
+      
+  }
+.map{
+    padding: 10% 0 5% 0;
+    background-color: #f4f4f4;
+}
+#head{
+    text-align: center;
+    color:rgb(7, 7, 105);
+    font-size: 3em;
+    padding-bottom: 4%;
+}
+.grid1{
+    margin: 0 7%;
+    display: grid;
+    grid-template-columns: 1fr .9fr;
+    grid-gap: 3em;
+    background-color: rgb(33, 33, 117);
+    grid-auto-rows: 380px;
+    box-shadow: rgba(0, 0, 0, 0.534) 0 0 15px 2px;
+}
+
+#img1{
+ height: 100%; 
+ width: 100%;
+}
+.item1 h1{
+    font-size: 1.7em;
+    padding: 5% 0 2% 0;
+    color: rgba(255, 255, 255, 0.808) ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.item1 h2{
+    padding-top:2% ;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+#link1{
+    color: rgba(255, 255, 255, 0.699);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: 20%;
+    
+}
+#h21{
+    margin-top: 1%;
+}
+hr{
+    margin-top: 7%;
+    border: 0;
+    height: 1px;
+    width: 100%;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
+}
+.touch{
+  
+   background-color: rgba(200, 204, 214, 0.322);
+   padding: 8% 0 10% 0;
+
+  
+}
+.touch h1{
+    text-align: center;
+    color:rgb(7, 7, 105);
+  
+    font-size: 3em;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+    margin: 5%; 
+    padding: 5% 5% 3% 5%;
+    border: black solid 1px;
+    border-radius: 6px;
+    background-image:linear-gradient(to bottom right , rgb(38, 3, 95), rgb(26, 110, 167));
+    box-shadow: rgb(55, 5, 78) 0 0 20px 1px;
+
+}
+.forms input{
+    width: 100%;
+    font-size: 1.3em;
+    padding: 4%;
+    margin-bottom: 13.5%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.forms input:last-child{
+    margin: 0;
+}
+#area{
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+#button1{
+    color: rgb(12, 12, 78);
+    font-weight: 700;
+    font-size: 1em ;
+    padding: 2.3% 5.3% ;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 83%;
+    margin-top: 2%;
+    box-shadow: rgba(7, 3, 49, 0.767) 0 0 20px 1px;
+}
+.footer{
+    background-color: rgba(0, 0, 77, 0.965);
+    height: 350px;
+  
+}
+.grid-container6{
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr ;
+    padding:4% 4% 0 4%;
+    
+}
+
+.row1{
+    width: 100%;
+}
+.row2{
+    width: 100%;
+    line-height: 2em;
+    padding-left: 15%;
+   
+}
+.row3{
+    width: 100%;
+    line-height: 2.8em;
+   
+    
+}
+
+
+.row4{
+    width: 100%;
+}
+
+#brand1{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+    font-family: 'Lobster', cursive;
+    font-weight: 300;  
+}
+#hr1{
+    border: 0;
+     height: 1px;
+     width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
+}
+#maska{
+    text-align: center;
+    padding-top: 1%;
+    line-height: 1.4em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+#navigation{
+    color: rgba(255, 255, 255, 0.808);
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+
+}
+#navlinks{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+li{
+    list-style: none;
+    
+}
+#stuff{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0 4% ;
+    margin-bottom: 2%;
+    position: relative;
+    top: -13px;
+    text-align: center;
+    
+}
+svg{
+    padding: 2%;
+}
+#iconcrate{
+    margin:8% 12%;
+}
+#arrow{
+    margin-left: 10%;
+}
+
+#top{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 1.3em;
+    position: relative;
+    left: 23%;
+    top: -14%;
+
 }
