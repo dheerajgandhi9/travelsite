@@ -1,332 +1,440 @@
-
-body{
-    margin: 0;
-    background-color: rgba(142, 189, 228, 0.123);
-  }
-  .navbar{
-      position: fixed;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: left 2%;
-      width: 100%;
-      list-style-type: none ;
-      background-color: rgb(7, 7, 105);
-      z-index: 2;
-      
-  }
-  .links{
-      float: left;
-      
-  }
-  #brand{
-      display: block;
-      padding:14px 200px 14px 0 ;
-      font-size: 21px;
-      text-decoration: none;
-      color: white;
-      font-family: 'Lobster', cursive;
-      font-weight: 300;
-  }
-  .optn{
-      display: block;
-      padding:14px 35px ;
-      font-size: 18px;
-      text-decoration: none;
-      color: white;
-      font-family: 'Lato', sans-serif;
-      font-weight: 700;
-   
-  }
-  .links :hover{
-      background-color:rgb(12, 12, 78);
-      border-bottom:rgb(3, 124, 180) solid 3px;
-  }
-  .parallax{
-    background-image:  linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)),url(./images/img8.jpg);
-    height: 480px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-   
-  }
-  #main1{
-      padding: 10% 0 0 0;
-      text-align: center;
-      font-size: 4.5em;
-      color: rgba(255, 255, 255, 0.918);
-      font-family: 'Lato', sans-serif;
-      font-weight: 800;
-  }
-  #sub1{
-      margin-top: 0;
-      border-top: rgba(255, 255, 255, 0.65) solid 1px;
-      border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
-      color: white;
-      font-size: 1.2em;
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      text-align: center;
-      padding: 1% 0 1% 0;
-      width: 35%;
-      margin-left:31.5% ;
-      
-  }
-  .tour1{
-      margin:10% 5% 25% 5%;
-      background-image: url(./images/img2.jpg);
-      background-repeat: no-repeat;
-      border-radius: 5px;
-      background-position: 50%;
-      background-size: cover ;
-      height: 450px;
-    
-     
-    }
-    .tour1:hover{
-        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img2.jpg);
-        
-        
-    }
-   
-    .placename{
-        text-align: center;
-        color: white;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        font-size: 5em;
-        padding: 2% 0 0 0;
-        margin: 0;
-        display: block;
+body {
+  margin: 0;
+  background-color: rgba(142, 189, 228, 0.123);
+}
+html, body{
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-left:2%;
+  width: 100%;
+  list-style-type: none;
+  background-color: rgb(7, 7, 105);
+  z-index: 2;
+}
+.links {
+  float: left;
+}
+#brand {
+  display: block;
+  padding: 14px 200px 14px 0;
+  font-size: 21px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+}
+.optn {
+  display: block;
+  padding: 14px 35px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.links :hover {
+  background-color: rgb(12, 12, 78);
+  border-bottom: rgb(3, 124, 180) solid 3px;
+}
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url(./images/img8.jpg);
+  height: 480px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main1 {
+  padding: 10% 0 0 0;
+  text-align: center;
+  font-size: 4.5em;
+  color: rgba(255, 255, 255, 0.918);
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+#sub1 {
+  margin-top: 0;
+  border-top: rgba(255, 255, 255, 0.65) solid 1px;
+  border-bottom: rgba(255, 255, 255, 0.651) solid 1px;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 1% 0 1% 0;
+  width: 35%;
+  margin-left: 31.5%;
+}
+.tour1 {
+  margin: 10% 5% 25% 5%;
+  background-image: url(./images/img2.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: 50%;
+  background-size: cover;
+  height: 450px;
+}
+.tour1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/img2.jpg);
 }
 
-    .buy-now{
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        font-size: 5em;
-        text-align: center;
-        color:#ffffff;
-        width: 100%;
-        padding-top: 2%;
-        text-decoration: none;
-       background-color: rgba(0, 0, 0, 0);
-        display: none;
-    }
+.placename {
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  padding: 2% 0 0 0;
+  margin: 0;
+  display: block;
+}
 
-    .tour:hover .placename{
-        display: none;
-    }
+.buy-now {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  padding-top: 2%;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+}
 
-    .tour:hover .buy-now{
-        display: block;
-    }
+.tour:hover .placename {
+  display: none;
+}
 
-    .grid-container1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 8em;
-        margin:0 8% ;
-        padding:15% 0 0 0;
-    }
-    .description1{
-        height: 270px;
-        width: 100%;
-        border-radius: 5px;
-        box-shadow: rgb(34, 164, 240) 0 0 10px 1px;
-      
-       background-size: cover ;
-       background-color: white;
-    }
-    .text{
-        padding: 7% 5% 11% 5%;
-        
-        
-    }
-    .submain1{
-        color: rgb(6, 29, 133);
-        font-size: 1.5em;
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
-        margin: 0;
-        padding-bottom: 5%;
-      
-    }
-    .subline1{
-        color: rgb(1, 23, 29);
-        font-size:1.2em;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        line-height: 1.5em;
-        margin: 0;   
-    }
-    #star{
-        padding-left: 3px;   
-    }
+.tour:hover .buy-now {
+  display: block;
+}
 
-    .tour2{
-       
-        margin:10% 5% 25% 5%;
-        background-image: url(./images/img3.jpg);
-        background-repeat: no-repeat;
-        border-radius: 5px;
-        background-position: 50%;
-        background-size: cover ;
-        height: 450px;
-       
-      }
-      .tour2:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img3.jpg);
-      }
-     
-    .tour3{
-       
-        margin:10% 5% 20% 5%;
-        background-image: url(./images/img4.jpg);
-        background-repeat: no-repeat;
-        border-radius: 5px;
-        background-position: 50%;
-        background-size: cover ;
-        height: 450px;
-       
-      }
-      .tour3:hover{
-          background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.3)),url(./images/img4.jpg);
-      }
-     .pagination{
-         display: inline-block;
-         text-align: center;
-     }
-     .pagination a{
-        color: rgb(16, 14, 131);
-        float: left;
-        padding: 8px 16px;
-        text-decoration: none;
-        background-color: white;
-        border: rgba(16, 14, 131, 0.267) solid .5px;
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8em;
+  margin: 0 8%;
+  padding: 15% 0 0 0;
+}
+.description1 {
+  height: 270px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgb(34, 164, 240) 0 0 10px 1px;
 
+  background-size: cover;
+  background-color: white;
+}
+.text {
+  padding: 7% 5% 11% 5%;
+}
+.submain1 {
+  color: rgb(6, 29, 133);
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 5%;
+}
+.subline1 {
+  color: rgb(1, 23, 29);
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+.subline2 {
+  color: rgb(1, 23, 29);
+  font-size: 1.2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}
+#star {
+  padding-left: 3px;
+}
 
-     }
-     .pagination a:hover{
-         background-color: rgb(29, 189, 230);
-     }
+.tour2 {
+  margin: 10% 5% 25% 5%;
+  background-image: url(./images/img3.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: 50%;
+  background-size: cover;
+  height: 450px;
+}
+.tour2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/img3.jpg);
+}
 
-     .end{
-          text-align: center;
-          
-     }
-     .pagination a:first-child {
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-      }
-      
-      .pagination a:last-child {
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-     .footer{
-         margin-top: 10%;
-        background-color: rgba(0, 0, 77, 0.965);
-        height: 350px;
-    }
-    .grid-container6{
-        display: grid;
-        grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr ;
-        padding:4% 4% 0 4%;
-        
-    }
-    .row1{
-        width: 100%;
-    }
-    .row2{
-        width: 100%;
-        line-height: 2em;
-        padding-left: 15%;
-       
-    }
-    .row3{
-        width: 100%;
-        line-height: 2.8em;
-       
-        
-    }
-    
-    
-    .row4{
-        width: 100%;
-    }
-    
-    #brand1{
-        margin-left: 32%;
-        text-align: center;
-        font-size: 1.8em;
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.76);
-        font-family: 'Lobster', cursive;
-        font-weight: 300;  
-    }
-    #hr1{
-        border: 0;
-         height: 1px;
-         width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
-    }
-    #maska{
-        text-align: center;
-        padding-top: 1%;
-        line-height: 1.4em;
-        font-size: 1em;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        color: white;
-    }
-    #navigation{
-        color: rgba(255, 255, 255, 0.808);
-        margin-left: 10%;
-        margin-top: 1%;
-        margin-bottom: 2%;
-        font-size: 1.3em;
-        font-family: 'Lato', sans-serif;
-        font-weight: 800;
-    
-    }
-    #navlinks{
-        color: white;
-        text-decoration: none;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-    }
-    li{
-        list-style: none;
-        
-    }
-    #stuff{
-        color: white;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        text-decoration: none;
-        padding: 0 4% ;
-        margin-bottom: 2%;
-        position: relative;
-        top: -13px;
-        text-align: center;
-        
-    }
-    svg{
-        padding: 2%;
-    }
-    #iconcrate{
-        margin:8% 12%;
-    }
-    #arrow{
-        margin-left: 10%;
-    }
-    
-    #top{
-        color: rgba(255, 255, 255, 0.74);
-        font-size: 1.3em;
-        position: relative;
-        left: 23%;
-        top: -14%;
-    
-    }
+.tour3 {
+  margin: 10% 5% 20% 5%;
+  background-image: url(./images/img4.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: 50%;
+  background-size: cover;
+  height: 450px;
+}
+.tour3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url(./images/img4.jpg);
+}
+.pagination {
+  display: inline-block;
+  text-align: center;
+}
+.pagination a {
+  color: rgb(16, 14, 131);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: white;
+  border: rgba(16, 14, 131, 0.267) solid 0.5px;
+}
+.pagination a:hover {
+  background-color: rgb(29, 189, 230);
+}
+
+.end {
+  text-align: center;
+}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.footer {
+  margin-top: 10%;
+  background-color: rgba(0, 0, 77, 0.965);
+  height: 350px;
+}
+.grid-container6 {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr;
+  padding: 4% 4% 0 4%;
+}
+.row1 {
+  width: 100%;
+}
+.row2 {
+  width: 100%;
+  line-height: 2em;
+  padding-left: 15%;
+}
+.row3 {
+  width: 100%;
+  line-height: 2.8em;
+}
+
+.row4 {
+  width: 100%;
+}
+
+#brand1 {
+  margin-left: 32%;
+  text-align: center;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.76);
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+}
+#hr1 {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(163, 159, 159, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+#maska {
+  text-align: center;
+  padding-top: 1%;
+  line-height: 1.4em;
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+#navigation {
+  color: rgba(255, 255, 255, 0.808);
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 1.3em;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+#navlinks {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+li {
+  list-style: none;
+}
+#stuff {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 0 4%;
+  margin-bottom: 2%;
+  position: relative;
+  top: -13px;
+  text-align: center;
+}
+svg {
+  padding: 2%;
+}
+#iconcrate {
+  margin: 8% 12%;
+}
+#arrow {
+  margin-left: 10%;
+}
+
+#top {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1.3em;
+  position: relative;
+  left: 23%;
+  top: -14%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    text-align: center;
+    padding: 0;
+    width: 414px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .links {
+    display: inline-block;
+    float: none;
+  }
+  #brand {
+    display: block;
+    padding: 0;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  .optn {
+    margin: 0 0 0 19px;    
+    display: block;
+    font-size: 16px;
+    padding: 0;
+  }
+  .test {
+    margin-right: 23px;
+  }
+
+  .grid-container1 {
+    height: 200px;
+    grid-gap: 1em;
+    margin: 10% 2% 5% 2%;
+  }
+
+  
+  .parallax {
+    height: 583px;
+  }
+  #main1 {
+    font-size: 2.8em;
+    padding-top: 44%;
+  }
+  #sub1 {
+    width: 90vw;
+    overflow-x: none;
+   margin:20px 0 0 15px;
+  }
+  .tour1,
+  .tour2,
+  .tour3 {
+    margin-left: 0;
+    margin-right: 0;
+    height: 300px;
+    margin-bottom: 30%;
+  }
+  .buy-now {
+    display: none;
+  }
+  .tour:hover .buy-now {
+    display: none;
+  }
+  .tour:hover .placename {
+      display: block;
+  }
+  .description1 {
+    width: 100%;
+    height: 190px;
+  }
+  .placename {
+    padding-top: 7%;
+    font-size: 3em;
+  }
+  .text {
+    height: 100px;
+  }
+  .submain1 {
+    font-size: 1em;
+  }
+  .subline1 {
+    height: 100px;
+    font-size: 0.7em;
+
+    width: 100%;
+  }
+  .subline2 {
+    height: 18px;
+    font-size: 0.7em;
+    width: 100%;
+  }
+  #star,
+  #str {
+    margin-top: 2%;
+    height: 10px;
+  }
+#maska,
+  #hr1,
+  .row3,
+  #top,
+  .row2,#arrow {
+    display: none;
+  }
+  .grid-container6 {
+    display: block;
+    text-align: center;
+  }
+  #brand1,
+  #iconcrate {  
+    margin: 0;
+  }
+  svg {
+    padding: 3% 4%;
+  }
+  .footer {
+    height: 260px;
+  }
+}

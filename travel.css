@@ -1,15 +1,16 @@
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
 }
 .navbar {
   position: fixed;
+  margin: 0;
   top: 0;
   left: 0;
-  margin: 0;
-  padding: left 2%;
+  padding-left: 2%;
   width: 100%;
   list-style-type: none;
   background-color: rgb(7, 7, 105);
@@ -41,7 +42,7 @@ body {
   border-bottom: rgb(3, 124, 180) solid 3px;
 }
 .img1 {
-  background-image: url(./images/img1.jpg);
+  background-image: url(./images/reimg1.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -402,12 +403,14 @@ body {
 .footer {
   background-color: rgba(0, 0, 77, 0.965);
   height: 350px;
+ 
 }
 .grid-container6 {
   display: grid;
   grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr;
   padding: 4% 4% 0 4%;
 }
+
 .row1 {
   width: 100%;
 }
@@ -415,6 +418,15 @@ body {
   width: 100%;
   line-height: 2em;
   padding-left: 15%;
+}
+.row2 ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 .row3 {
   width: 100%;
@@ -436,6 +448,7 @@ body {
 }
 #hr1 {
   border: 0;
+  margin: 8px;
   height: 1px;
   width: 100%;
   background-image: linear-gradient(
@@ -453,6 +466,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   color: white;
+  margin: 16px 0;
 }
 #navigation {
   color: rgba(255, 255, 255, 0.808);
@@ -469,8 +483,12 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
+.row3 ul{
+  padding-left: 7%;
+}
 li {
   list-style: none;
+  
 }
 #stuff {
   color: white;
@@ -498,5 +516,204 @@ svg {
   font-size: 1.3em;
   position: relative;
   left: 23%;
-  top: -14%;
+  top: -9%;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    text-align: center;
+    padding: 0;
+    width: 414px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .links {
+    display: inline-block;
+    float: none;
+  }
+  #brand {
+    display: block;
+    padding: 0;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  .optn {
+    margin: 0 0 0 19px;    
+    display: block;
+    font-size: 16px;
+    padding: 0;
+  }
+  .test {
+    margin-right: 23px;
+  }
+  #maska,
+  #hr1,
+  .row3,
+  #top,
+  .row2,#arrow {
+    display: none;
+  }
+  .grid-container6 {
+    display: block;
+    text-align: center;
+  }
+  #brand1,
+  #iconcrate {  
+    margin: 0;
+  }
+  svg {
+    padding: 3% 4%;
+  }
+  .footer {
+    height: 260px;
+  }
+  .img1{
+    background-position-x: 75%;
+    height: 600px;
+  }
+  .intro{
+    padding-top: 7%;
+    left: 0;
+    text-align: center;
+  }
+  #moto{
+    font-size: 1.5em;
+  }
+  #subline{
+    font-size: 2em;
+  }
+  #button{
+    font-size: 1em;
+  }
+  .grid-container{
+    display: block;
+  }
+  .item{
+    height:237px;
+  }
+  .noitem{
+    display: none;
+  }
+  .grid-container1{
+    display: block;
+  }
+  .head{
+    top: -230px;
+  }
+  .item1{
+    top: -68px;
+
+  }
+  .grid-container2{
+    display: block;
+  }
+  #f1{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 2% 0;
+  }
+  #f2{
+    margin: 0;
+    font-size: .9em;
+    text-align: center;
+    width: 100%;
+  }
+  .item3{
+    text-align: center;
+  }
+  #button2{
+    font-size: .9em;
+    
+  }
+  #topic{
+    font-size: 2em;
+  }
+  .grid-container3{
+    display: block;
+    padding: 0 1%;
+  } 
+  .img3{
+    height: 203px;
+  }
+  .item5{
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  #place{
+    font-size: 1.4em;
+  }
+  #discription{
+    font-size: 1em;
+
+  }
+  #button3{
+    font-size: .8em;
+
+  }
+  #price{
+    position: relative;
+    top:-500px;
+  }
+  .line1{
+    padding-top: 2%;
+    font-size: 1.7em;
+  }
+  .line2{
+    font-size: 1em;
+  }
+  #button4{
+    font-size: .8em;
+    padding: 0;
+  }
+  .parallax{
+    height: 220px;
+  }
+
+  .grid-container4,.grid-container5{
+    display: block;
+  
+  }
+  .square{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    left: 120px;
+  }
+  .tab1{
+    margin-bottom: 0;
+   
+  }
+ 
+  .block1{
+    top: -80px;
+    width: 210px;
+    left: 60px;
+    height: 210px;
+    
+  }
+  .name{
+    font-size: 1.3em;
+    padding-top: 18%;
+  }
+  .tab{
+    font-size: 1em;
+    line-height: 1.1em;
+  }
+  #endline1{
+    font-size: 2em;
+  }
+  #endline2{
+    font-size: 1.2em;
+  }
+  #button5{
+    font-size: 1.1em;
+  }
+  .back{
+    height: 250px;
+    padding: 0;
+  }
+  .gallery{
+  background-position-y: -20px;
+    
+  }
 }

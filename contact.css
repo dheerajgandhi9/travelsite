@@ -1,8 +1,12 @@
-*{ 
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    background-color: rgba(142, 189, 228, 0.123);
+    
+  }
+ html, body{
+     overflow-x: hidden;
+     scroll-behavior: smooth;
+ } 
 .navbar{
     position: fixed;
     top: 0;
@@ -92,8 +96,9 @@
     grid-template-columns: 1fr .9fr;
     grid-gap: 3em;
     background-color: rgb(33, 33, 117);
-    grid-auto-rows: 380px;
+    grid-auto-rows: 500px;
     box-shadow: rgba(0, 0, 0, 0.534) 0 0 15px 2px;
+    height:100%;
 }
 
 #img1{
@@ -118,13 +123,15 @@
     color: rgba(255, 255, 255, 0.699);
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    margin-left: 20%;
+ 
     
 }
 #h21{
     margin-top: 1%;
+    margin-right: 15%;
+    text-align: center;
 }
-hr{
+hr{text-align: center;
     margin-top: 7%;
     border: 0;
     height: 1px;
@@ -185,110 +192,263 @@ hr{
     margin-top: 2%;
     box-shadow: rgba(7, 3, 49, 0.767) 0 0 20px 1px;
 }
-.footer{
+.footer {
     background-color: rgba(0, 0, 77, 0.965);
     height: 350px;
-  
-}
-.grid-container6{
+   
+  }
+  .grid-container6 {
     display: grid;
-    grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr ;
-    padding:4% 4% 0 4%;
-    
-}
-
-.row1{
+    grid-template-columns: 1fr 1.4fr 1.4fr 0.5fr;
+    padding: 4% 4% 0 4%;
+  }
+  
+  .row1 {
     width: 100%;
-}
-.row2{
+  }
+  .row2 {
     width: 100%;
     line-height: 2em;
     padding-left: 15%;
-   
-}
-.row3{
+  }
+  .row2 ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .row3 {
     width: 100%;
     line-height: 2.8em;
-   
-    
-}
-
-
-.row4{
+  }
+  
+  .row4 {
     width: 100%;
-}
-
-#brand1{
+  }
+  
+  #brand1 {
     margin-left: 32%;
     text-align: center;
     font-size: 1.8em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.76);
-    font-family: 'Lobster', cursive;
-    font-weight: 300;  
-}
-#hr1{
+    font-family: "Lobster", cursive;
+    font-weight: 300;
+  }
+  #hr1 {
     border: 0;
-     height: 1px;
-     width: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(163, 159, 159, 0.75), rgba(0, 0, 0, 0));
-}
-#maska{
+    margin: 8px;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(163, 159, 159, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  #maska {
     text-align: center;
     padding-top: 1%;
     line-height: 1.4em;
     font-size: 1em;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     color: white;
-}
-#navigation{
+    margin: 16px 0;
+  }
+  #navigation {
     color: rgba(255, 255, 255, 0.808);
     margin-left: 10%;
     margin-top: 1%;
     margin-bottom: 2%;
     font-size: 1.3em;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 800;
-
-}
-#navlinks{
+  }
+  #navlinks {
     color: white;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
-}
-li{
+  }
+  .row3 ul{
+    padding-left: 7%;
+  }
+  li {
     list-style: none;
     
-}
-#stuff{
+  }
+  #stuff {
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     text-decoration: none;
-    padding: 0 4% ;
+    padding: 0 4%;
     margin-bottom: 2%;
     position: relative;
     top: -13px;
     text-align: center;
-    
-}
-svg{
+  }
+  svg {
     padding: 2%;
-}
-#iconcrate{
-    margin:8% 12%;
-}
-#arrow{
+  }
+  #iconcrate {
+    margin: 8% 12%;
+  }
+  #arrow {
     margin-left: 10%;
-}
-
-#top{
+  }
+  
+  #top {
     color: rgba(255, 255, 255, 0.74);
     font-size: 1.3em;
     position: relative;
     left: 23%;
-    top: -14%;
-
+    top: -9%;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar {
+      text-align: center;
+      padding: 0;
+      width: 414px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+  
+    .links {
+      display: inline-block;
+      float: none;
+    }
+    #brand {
+      display: block;
+      padding: 0;
+      margin-bottom: 2%;
+      width: 100%;
+    }
+    .optn {
+      margin: 0 0 0 19px;    
+      display: block;
+      font-size: 16px;
+      padding: 0;
+    }
+    .test {
+      margin-right: 23px;
+    }
+    #maska,
+    #hr1,
+    .row3,
+    #top,
+    .row2,#arrow {
+      display: none;
+    }
+    .grid-container6 {
+      display: block;
+      text-align: center;
+    }
+    #brand1,
+    #iconcrate {  
+      margin: 0;
+    }
+    svg {
+      padding: 3% 4%;
+    }
+    .footer {
+      height: 260px;
+    }
+    .parallax{
+      height: 583px;
+    }
+    #main1{
+      font-size: 2.8em;
+      padding-top: 50%;
+    }
+    #sub1{
+      width: 83vw;
+      margin: 0 0 0 8%;
+      padding: 3% 0;
+    }
+    .grid1{
+        display: block;
+        margin: 0;
+      }
+    #img1{
+        height: 250px;
+    }
+    .item1 h1{
+        margin: 0;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .item1 h2{
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+    hr{
+        margin-top: 2%;
+    }
+    #h21{
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 3%;
+    }
+    #head{
+        font-size: 2em;
+       
+    }
+    .touch{
+        padding-top: 0;
+        background-color: rgba(142, 189, 228, 0);
+    }
+    .touch h1{
+        font-size: 2em ;
+        margin-bottom: 7%;
+    }
+   .grid2{
+       display: block;
+       margin: 0;
+    
+    }
+    .forms input{
+        font-size: 1em;
+        width: 330px;
+        margin-bottom: 2%;
+        
+    }
+    .message{
+        padding-top: 3%;
+    }
+    #area{
+        width:333px ;
+        height: 200px;
+        font-size: 1.2em;
+        padding: 4%
+    }
+    textarea::placeholder{
+        font-size: 16px;
+    }
+    #button1{
+        margin: 0;
+        text-align: center;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
